@@ -1,0 +1,30 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Verdana;
+	color: red ;
+	/*Toma el color rojo debido al principio de  de css que es en cascada el ordenador
+procesa las reglas descendente  quiere decir  que la ultima regla es la que prevalence sobrescribe las anteriores */
+}
+
+h1 {
+	font-family: Arial;
+}
+
+a {
+	color: inherit;
+}
+
+div{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+
+
+body p{
+
+color: green;
+
+/* aqui seria que todo lo que contenga el body con la etiqueta p que es de parrafo las letras tornaran un color verde*/
+}
