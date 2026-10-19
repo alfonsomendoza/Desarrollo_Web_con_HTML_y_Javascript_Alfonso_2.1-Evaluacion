@@ -1,12 +1,17 @@
 body{
 	background-color: black;
-	color: white;
+	color: white !important;/*El texto será blanco, a pesar de que color: red; está escrito después. 
+	!important rompe la regla de "el último sobreescribe al anterior".*/
 	font-family: Verdana;
 	color: red ;
 	/*Toma el color rojo debido al principio de  de css que es en cascada el ordenador
 procesa las reglas descendente  quiere decir  que la ultima regla es la que prevalence sobrescribe las anteriores */
 }
-
+p{
+	color: blue !important
+	/*El texto será blanco, a pesar de que color: blue; está escrito después. !important rompe la
+	 regla de "el último sobreescribe al anterior".*/
+}
 h1 {
 	font-family: Arial;
 }
